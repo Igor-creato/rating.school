@@ -1,13 +1,34 @@
 body {
    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-   color: #9555af;
+   color: #333333;
 }
 
 input {
-   display: block;
+   display: none;
 }
 
+.checkbox {
+   display: inline-block;
+   border: 2px solid #b2b1b1;
+   width: 16px;
+   height: 16px;
+   position: relative;
+   vertical-align: middle;
+   box-sizing: border-box;
+   margin-right: 4px;
+}
 
+.checkbox:before {
+   content: '';
+   background: #1c1e25;
+   width: 8px;
+   height: 8px;
+   opacity: 0;
+   transition: 0.3s;
+   position: absolute;
+   top: 2px;
+   left: 2px;
+}
 
 .buttons-block {
    margin-top: 2rem;
@@ -31,8 +52,8 @@ button {
    background-color: #fff;
    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
       rgba(0, 0, 0, 0.24) 0px 1px 2px;
-   border: 1px solid;
-   border-color: #9555af;
+   /* border: 1px solid;
+   border-color: #007BFF; */
    padding: 0 2rem;
    margin-top: 2rem;
    margin-bottom: 2rem;
@@ -46,7 +67,7 @@ button {
    border: solid 1px transparent;
    border-radius: 4px;
    color: #ffffff;
-   background-color: #9555af;
+   background-color: #007BFF;
    padding: 0.5rem 1rem;
 }
 
@@ -57,7 +78,7 @@ button {
 
 .buttons-block-btn-school:hover,
 .buttons-block-btn-school:focus {
-   color: #9555af;
+   color: #007BFF;
    border-color: currentColor;
    background-color: #ffffff;
 }
