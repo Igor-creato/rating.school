@@ -1,0 +1,93 @@
+body {
+   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+   color: #9555af;
+}
+
+input {
+   display: block;
+}
+
+
+
+.buttons-block {
+   margin-top: 2rem;
+
+}
+
+button {
+   margin-top: 1rem;
+}
+
+button {
+   margin-top: 1rem;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+}
+
+.top-block {
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+      rgba(0, 0, 0, 0.24) 0px 1px 2px;
+   border: 1px solid;
+   border-color: #9555af;
+   padding: 0 2rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   border-radius: 5px;
+}
+
+.buttons-block-btn-school {
+   border: none;
+   display: block;
+   outline: none;
+   border: solid 1px transparent;
+   border-radius: 4px;
+   color: #ffffff;
+   background-color: #9555af;
+   padding: 0.5rem 1rem;
+}
+
+.buttons-block-btn-school:active {
+   transform: translateY(1px);
+   filter: saturate(150%);
+}
+
+.buttons-block-btn-school:hover,
+.buttons-block-btn-school:focus {
+   color: #9555af;
+   border-color: currentColor;
+   background-color: #ffffff;
+}
+
+.buttons-block-btn-compare {
+   border: none;
+   display: block;
+   outline: none;
+   border: solid 1px transparent;
+   background-color: #9555af;
+   border-radius: 4px;
+   color: #9555af;
+   border-color: currentColor;
+   background-color: #ffffff;
+   padding: 0.5rem 1rem;
+}
+
+.buttons-block-btn-compare:active {
+   transform: translateY(1px);
+   filter: saturate(150%);
+}
+
+.buttons-block-btn-compare:hover,
+.buttons-block-btn-compare:focus {
+   color: #ffffff;
+
+   background-color: #9555af;
+}
+
+.buttons-block-btn-school::-moz-focus-inner,
+.buttons-block-btn-compare::-moz-focus-inner {
+   border: none;
+}
